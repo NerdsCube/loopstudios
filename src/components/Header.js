@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../images/logo.svg'
+import hamburger from '../images/icon-hamburger.svg'
 import '../style.css'
 
 function Header() {
@@ -7,6 +8,7 @@ function Header() {
         <div className="background">
             <nav className="desktop-nav">
                 <div className="logo"><img src={logo} /></div>
+                <span className="toggle"><img src={hamburger} /></span>
                 <ul className="list">
                     <li className="list-item"><a href="#" className="list-anchor">About</a></li>
                     <li className="list-item"><a href="#" className="list-anchor">Careers</a></li>
