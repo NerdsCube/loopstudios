@@ -56,11 +56,33 @@ fieldset{
     padding: 100px;
 }
 
+.creation{
+    margin-top: 150px;
+}
+.create{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+button{
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+}
+
 .creations{
-    margin: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
 }
 .grid{
     position: relative;
+    width: 20%;
+    margin: 10px;
 }
 label{
     position: absolute;
@@ -71,7 +93,7 @@ label{
 }
 
 .grid img{
-    width: 200px;
+    width: 220px;
 }
 
 footer{
@@ -83,7 +105,7 @@ footer{
     flex-direction: column;
 }
 
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
     .creations {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -96,4 +118,4 @@ footer{
         grid-template-columns: repeat(4, 1fr);
     }
 
-}
+} */
