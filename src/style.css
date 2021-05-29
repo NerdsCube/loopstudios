@@ -32,7 +32,7 @@
     color: #fff;
     text-decoration: none;
 }
-a:hover{
+li a:hover{
     text-decoration: underline;
 }
 fieldset{
@@ -56,17 +56,6 @@ fieldset{
     background-color: #fff;
 }
 
-.inter-img{
-    position: relative;
-}
-.sm{
-    position: absolute;
-    left: 600px;
-    top: 600px;
-    width: 30%;
-    padding: 100px;
-}
-
 .creation{
     margin-top: 150px;
 }
@@ -88,6 +77,8 @@ button{
 
 button:hover{
     background-color: #000;
+    cursor: pointer;
+    color: #fff;
 }
 
 .creations{
@@ -107,7 +98,6 @@ label{
     left: 50px;
     top: 300px;
     color: #fff
-
 }
 
 .grid img{
@@ -138,18 +128,86 @@ footer{
     justify-content: right;
     align-items: flex-end;
 }
-
-/* @media screen and (min-width: 700px) {
-    .creations {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+.one{
+    background: url(../src/images/desktop/image-deep-earth.jpg) no-repeat;
+}
+.two{
+    background: url(../src/images/mobile/image-night-arcade.jpg);
 }
 
-@media screen and (min-width: 1200px) {
-    .creations {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+@media screen and (max-width: 900px) {
+    .one{
+        background: url(../src/images/mobile/image-deep-earth.jpg) no-repeat;
     }
 
-} */
+    .background{
+        background: url(../src/images/desktop/image-hero.jpg) no-repeat;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+    }
+    .list{
+        display: none;
+    }
+
+    .interactive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .interactive img{
+        max-width: 100%;
+    }
+
+    .creation{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .create{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .creations{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .grid img{
+        width: 100%;
+    }
+    .image1{
+        background: url(../src/images/mobile/image-deep-earth.jpg);
+    }
+    .image2{
+        background: url(../src/images/mobile/image-night-arcade.jpg);
+    }
+    
+} 
+
+@media screen and (min-width: 1200px) {
+    .sm{
+        position: absolute;
+        left: 600px;
+        top: 600px;
+        width: 25%;
+        padding: 100px;
+    }
+
+}

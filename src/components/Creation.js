@@ -16,17 +16,14 @@ function Creation() {
                 <button>See All</button>
             </div>
             <div className="creations">
-                <div className="grid">
-                    <img src={image2} />
-                    <label>DEEP EARTH</label>
-                </div>
-                <div className="grid"><img src={image6} /><label>NIGHT ARCADE</label></div>
-                <div className="grid"><img src={image8} /><label>SOCCER TEAM VR</label></div>
-                <div className="grid"><img src={image5} /><label>THE GRID</label></div>
-                <div className="grid"><img src={image4} /><label>FROM UP ABOVE</label></div>
-                <div className="grid"><img src={image7} /><label>POCKET BOREALIS</label></div>
-                <div className="grid"><img src={image1} /><label>THE CURIOSITY</label></div>
-                <div className="grid"><img src={image3} /><label>MAKE IT FISHEYE</label></div>
+                <div className="grid one"><label>DEEP EARTH</label></div>
+                <div className="grid two"><img className="image2" src={image6} /><label>NIGHT ARCADE</label></div>
+                <div className="grid"><img className="image3" src={image8} /><label>SOCCER TEAM VR</label></div>
+                <div className="grid"><img className="image4" src={image5} /><label>THE GRID</label></div>
+                <div className="grid"><img className="image5" src={image4} /><label>FROM UP ABOVE</label></div>
+                <div className="grid"><img className="image6" src={image7} /><label>POCKET BOREALIS</label></div>
+                <div className="grid"><img className="image7" src={image1} /><label>THE CURIOSITY</label></div>
+                <div className="grid"><img className="image8" src={image3} /><label>MAKE IT FISHEYE</label></div>
             </div>            
         </div>
     )
