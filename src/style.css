@@ -62,14 +62,17 @@ fieldset{
 .create{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 30px;
     align-items: center;
+    margin-left: 200px;
+    margin-right: 250px;
 }
 button{
     background-color: transparent;
     width: fit-content;
     height: fit-content;
+    border: #000000 solid 2px;
 }
 
 .creations{
@@ -97,12 +100,28 @@ label{
 }
 
 footer{
-    background: #000;
+    background: #000000;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .social{
     float: right;
+    color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
 }
 
 /* @media screen and (min-width: 700px) {

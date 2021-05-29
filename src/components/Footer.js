@@ -9,6 +9,16 @@ import logo from '../images/logo.svg'
 function Footer() {
     return (
         <footer style={{backgroundColor: 'black'}}>
+            <div className="nav">
+                <div><img src={logo} /></div>
+                <ul>
+                    <li className="foot-item"><a href="#" className="foot-anchor">About</a></li>
+                    <li className="foot-item"><a href="#" className="foot-anchor">Careers</a></li>
+                    <li className="foot-item"><a href="#" className="foot-anchor">Events</a></li>
+                    <li className="foot-item"><a href="#" className="foot-anchor">Products</a></li>
+                    <li className="foot-item"><a href="#" className="foot-anchor">Support</a></li>
+                </ul>
+            </div>
             <div className="social">
                 <div>
                     <img src={facebook} />
