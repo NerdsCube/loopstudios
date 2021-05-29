@@ -8,18 +8,8 @@ import logo from '../images/logo.svg'
 
 function Footer() {
     return (
-        <footer>
-            <nav>
-                <div className="logo"><img src={logo} /></div>
-                <ul className="list">
-                    <li className="list-item"><a href="#" className="list-anchor">About</a></li>
-                    <li className="list-item"><a href="#" className="list-anchor">Careers</a></li>
-                    <li className="list-item"><a href="#" className="list-anchor">Events</a></li>
-                    <li className="list-item"><a href="#" className="list-anchor">Products</a></li>
-                    <li className="list-item"><a href="#" className="list-anchor">Support</a></li>
-                </ul>
-            </nav>
-            <div>
+        <footer style={{backgroundColor: 'black'}}>
+            <div className="social">
                 <div>
                     <img src={facebook} />
                     <img src={twitter} />

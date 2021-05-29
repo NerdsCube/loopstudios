@@ -74,7 +74,12 @@ label{
 }
 
 footer{
-    background-color: #000;
+    background: #000;
+}
+.social{
+    float: right;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 700px) {
