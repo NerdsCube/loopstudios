@@ -33,8 +33,8 @@ fieldset{
 
 .interactive{
     margin: 50px;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 }
 .interactive img{
     width: 500px;
@@ -44,12 +44,37 @@ fieldset{
     background-color: #fff;
 }
 
+.inter-img{
+    position: relative;
+}
+.sm{
+    position: absolute;
+    left: 400px;
+    top: 600px;
+    width: 50%;
+    padding: 100px;
+}
+
 .creations{
     margin: 50px;
+}
+.grid{
+    position: relative;
+}
+label{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    color: #fff
+
 }
 
 .grid img{
     width: 200px;
+}
+
+footer{
+    background-color: #000;
 }
 
 @media screen and (min-width: 700px) {

@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import Interactive from "./components/Interactive";
 import Creation from "./components/Creation";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <Header />
       <Interactive />
       <Creation />
+      <Footer />
     </>
   );
 }
