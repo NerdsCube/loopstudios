@@ -21,8 +21,8 @@ function Creation() {
                     <label>DEEP EARTH</label>
                 </div>
                 <div className="grid"><img src={image6} /><label>DEEP EARTH</label></div>
-                <div className="grid"><img src={image8} /><label>DEEP EARTH</label></div>
-                <div className="grid"><img src={image5} /><label>DEEP EARTH</label></div>
+                <div className="grid"><img src={image8} /><label>NIGHT ARCADE</label></div>
+                <div className="grid"><img src={image5} /><label>SOCCER TEAM VR</label></div>
                 <div className="grid"><img src={image4} /><label>DEEP EARTH</label></div>
                 <div className="grid"><img src={image7} /><label>DEEP EARTH</label></div>
                 <div className="grid"><img src={image1} /><label>DEEP EARTH</label></div>
