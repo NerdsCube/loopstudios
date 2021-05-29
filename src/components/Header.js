@@ -5,7 +5,7 @@ import '../style.css'
 function Header() {
     return (
         <div className="background">
-            <nav>
+            <nav className="desktop-nav">
                 <div className="logo"><img src={logo} /></div>
                 <ul className="list">
                     <li className="list-item"><a href="#" className="list-anchor">About</a></li>
