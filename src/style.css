@@ -42,5 +42,27 @@ fieldset{
 
 .interactive .sm{
     background-color: #fff;
+}
+
+.creations{
+    margin: 50px;
+}
+
+.grid img{
+    width: 200px;
+}
+
+@media screen and (min-width: 700px) {
+    .creations {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .creations {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 
 }

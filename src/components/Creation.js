@@ -16,7 +16,17 @@ function Creation() {
                 <button>See All</button>
             </div>
             <div className="creations">
-                <img />
+                <div className="grid">
+                    <img src={image2} />
+                    <label>DEEP EARTH</label>
+                </div>
+                <div className="grid"><img src={image6} /><label>DEEP EARTH</label></div>
+                <div className="grid"><img src={image8} /><label>DEEP EARTH</label></div>
+                <div className="grid"><img src={image5} /><label>DEEP EARTH</label></div>
+                <div className="grid"><img src={image4} /><label>DEEP EARTH</label></div>
+                <div className="grid"><img src={image7} /><label>DEEP EARTH</label></div>
+                <div className="grid"><img src={image1} /><label>DEEP EARTH</label></div>
+                <div className="grid"><img src={image3} /><label>DEEP EARTH</label></div>
             </div>            
         </div>
     )
