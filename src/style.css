@@ -30,3 +30,17 @@ fieldset{
     color: #fff;
     margin-left: 100px;
 }
+
+.interactive{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.interactive img{
+    width: 500px;
+}
+
+.interactive .sm{
+    background-color: #fff;
+
+}
