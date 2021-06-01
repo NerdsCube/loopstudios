@@ -235,6 +235,16 @@ footer{
     .interactive img{
         max-width: 100%;
     }
+    .sm{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sm p{
+        text-align: center;
+    }
 
     .creation{
         margin-top: 150px;
@@ -281,7 +291,7 @@ footer{
         color: #fff;
         margin: 0 auto;
     }
-    
+
 } 
 
 @media screen and (min-width: 1200px) {
