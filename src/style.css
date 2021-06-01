@@ -212,12 +212,12 @@ ul .foot-item{
 
     .creations{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
-     
+    
     }
     .one{
-        background: url(../src/images/mobile/image-deep-earth.jpg) no-repeat;
+        background: url(../src/images/mobile/image-deep-earth.jpg);
     }
     .two{
         background: url(../src/images/mobile/image-night-arcade.jpg) no-repeat;
@@ -335,6 +335,7 @@ ul .foot-item{
         width: 100%;
         margin: 0 auto;
     }
+
     .desktop-nav{
         display: flex;
         flex-direction: row;
