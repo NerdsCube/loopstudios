@@ -107,12 +107,11 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
     align-items: center;
 }
-.foot-item{
+ul .foot-item{
     display: inline-block;
-    justify-content: space-around;
+    margin-right: 10px;
 }
 .foot-item a{
     color: #fff;
@@ -215,11 +214,13 @@ footer{
         justify-content: space-between;
     }
 
-    .foot-item{
-        display: block;
+    ul .foot-item{
         align-items: center;
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 20px;
     }
-
     .social{
         float: right;
         color: #fff;
