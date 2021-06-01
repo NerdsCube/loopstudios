@@ -42,19 +42,7 @@ fieldset{
     margin-left: 100px;
 }
 
-.interactive{
-    margin: 50px;
-    margin-left: 200px;
-    /* display: flex;
-    flex-direction: row; */
-}
-.interactive img{
-    width: 500px;
-}
 
-.interactive .sm{
-    background-color: #fff;
-}
 
 .creation{
     margin-top: 150px;
@@ -227,10 +215,9 @@ footer{
     .interactive{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        padding: 20px;
         width: 100%;
-        margin: 0 auto;
     }
     .interactive img{
         max-width: 100%;
@@ -244,6 +231,7 @@ footer{
     }
     .sm p{
         text-align: center;
+        font-size: 20px;
     }
 
     .creation{
@@ -301,6 +289,20 @@ footer{
         top: 600px;
         width: 25%;
         padding: 100px;
+    }
+
+    .interactive{
+        margin: 50px;
+        margin-left: 200px;
+        /* display: flex;
+        flex-direction: row; */
+    }
+    .interactive img{
+        width: 500px;
+    }
+    
+    .interactive .sm{
+        background-color: #fff;
     }
 
 }
