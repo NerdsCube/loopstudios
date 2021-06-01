@@ -148,6 +148,22 @@ footer{
 }
 
 @media screen and (max-width: 900px) {
+    .btn{
+        display: none;
+    }
+
+    .grid{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        margin-bottom: -150px;
+    }
+    .creations{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+     
+    }
     .one{
         background: url(../src/images/mobile/image-deep-earth.jpg) no-repeat;
     }
@@ -155,22 +171,22 @@ footer{
         background: url(../src/images/mobile/image-night-arcade.jpg) no-repeat;
     }
     .three{
-        background: url(../src/images/desktop/image-soccer-team.jpg) no-repeat;
+        background: url(../src/images/mobile/image-soccer-team.jpg) no-repeat;
     }
     .four{
-        background: url(../src/images/desktop/image-grid.jpg) no-repeat;
+        background: url(../src/images/mobile/image-grid.jpg) no-repeat;
     }
     .five{
-        background: url(../src/images/desktop/image-from-above.jpg) no-repeat;
+        background: url(../src/images/mobile/image-from-above.jpg) no-repeat;
     }
     .six{
-        background: url(../src/images/desktop/image-pocket-borealis.jpg) no-repeat;
+        background: url(../src/images/mobile/image-pocket-borealis.jpg) no-repeat;
     }
     .seven{
-        background: url(../src/images/desktop/image-curiosity.jpg) no-repeat;
+        background: url(../src/images/mobile/image-curiosity.jpg) no-repeat;
     }
     .eight{
-        background: url(../src/images/desktop/image-fisheye.jpg) no-repeat;
+        background: url(../src/images/mobile/image-fisheye.jpg) no-repeat;
     }
 
     .toggle{
