@@ -168,7 +168,8 @@ ul .foot-item{
         display: block;
         height: fit-content;
         color: #fff;
-        margin-top: 200px;
+        margin-top: 150px;
+        margin-bottom: 170px;
         text-align: left;
         transition: 3s;
         font-size: 20px;
@@ -179,7 +180,8 @@ ul .foot-item{
 }
 .mobile-nav li{
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
 }
 .mobile-nav a{
     text-decoration: none;
