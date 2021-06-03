@@ -1,3 +1,16 @@
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(../src/fonts/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: 'Alata';
+    src: url(../src/fonts/Alata-Regular.ttf);
+}
+h1 p{
+    font-family: 'Josefin Sans';
+}
+
 .background{
     background: url(../src/images/desktop/image-hero.jpg) no-repeat;
     position: relative;
@@ -27,6 +40,7 @@
     text-decoration: none;
     display: inline-block;
     margin-left: 30px;
+    font-family: 'Alata';
 }
 .desktop-nav li a{
     color: #fff;
@@ -40,6 +54,9 @@ fieldset{
     margin-top: 100px;
     color: #fff;
     margin-left: 100px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    line-height: 50px;
 }
 
 
@@ -56,6 +73,9 @@ fieldset{
     margin-left: 100px;
     margin-right: 50px;
 }
+.create h1{
+    font-family: 'Josefin Sans';
+}
 .btn{
     margin-left: 200px;
 }
@@ -71,7 +91,11 @@ button:hover{
     cursor: pointer;
     color: #fff;
 }
-
+label{
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    font-size: 30px;
+}
 
 footer{
     background: #000000;
@@ -90,7 +114,9 @@ footer{
     justify-content: flex-start;
     align-items: center;
 }
-
+.nav li{
+    font-family: 'Alata';
+}
 ul .foot-item{
     display: inline-block;
     margin-right: 10px;
@@ -106,6 +132,9 @@ ul .foot-item{
     flex-direction: column;
     justify-content: right;
     align-items: flex-end;
+}
+.social p{
+    font-family: 'Alata';
 }
 .one{
     background: url(../src/images/desktop/image-deep-earth.jpg) no-repeat;
@@ -130,6 +159,12 @@ ul .foot-item{
 }
 .eight{
     background: url(../src/images/desktop/image-fisheye.jpg) no-repeat;
+}
+.sm h1{
+    font-family: 'Josefin Sans';
+}
+.sm p{
+    font-family: 'Alata';
 }
 
 @media screen and (max-width: 900px) {
@@ -164,6 +199,7 @@ ul .foot-item{
     list-style: none;
     margin-bottom: 40px;
     text-transform: uppercase;
+    font-family: 'Alata';
     }
     .mobile-nav a{
     text-decoration: none;
