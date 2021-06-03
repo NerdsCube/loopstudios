@@ -1,6 +1,6 @@
-*{
-    overflow-x: hidden;
-}
+/* *{
+   box-sizing: border-box;
+} */
 @font-face {
     font-family: 'Josefin Sans';
     src: url(../src/fonts/JosefinSans-Light.ttf);
@@ -15,6 +15,7 @@
     width: 100%;
     height: 400px;
 }
+
 
 .desktop-nav{
     display: flex;
@@ -56,9 +57,6 @@ fieldset{
     font-weight: 400;
     line-height: 50px;
 }
-
-
-
 
 .create{
     display: flex;
@@ -170,6 +168,7 @@ ul .foot-item{
         position: absolute;
         background: #000;
         padding: 20px;
+        overflow-x: auto;
         transition: 1s;
         -webkit-transition: 1s;
         -moz-transition: 1s;
@@ -192,10 +191,10 @@ ul .foot-item{
         -o-transition: 3s;
     }
     .mobile-nav li{
-    list-style: none;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    font-family: 'Alata';
+        list-style: none;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-family: 'Alata';
     }
     .mobile-nav a{
     text-decoration: none;
@@ -274,7 +273,6 @@ ul .foot-item{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
     }
 
     ul .foot-item{
@@ -285,12 +283,14 @@ ul .foot-item{
         font-size: 20px;
     }
     .social{
-        float: right;
         color: #fff;
         display: flex;
         flex-direction: column;
-        justify-content: right;
+        justify-content: center;
         align-items: center;
+    }
+    .social p{
+        font-size: 14px;
     }
 
 
