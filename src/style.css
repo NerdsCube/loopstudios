@@ -72,26 +72,6 @@ button:hover{
     color: #fff;
 }
 
-.creations{
-    margin-left: 100px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
-    margin-bottom: 20px;
-}
-.grid{
-    position: relative;
-    width: 100%;
-    height: 400px;
-}
-label{
-    position: absolute;
-    font-size: 20px;
-    left: 40px;
-    top: 340px;
-    color: #fff
-}
-
 
 footer{
     background: #000000;
@@ -106,9 +86,11 @@ footer{
 .nav {
     display: flex;
     flex-direction: column;
+    position: relative;
     justify-content: flex-start;
     align-items: center;
 }
+
 ul .foot-item{
     display: inline-block;
     margin-right: 10px;
@@ -162,7 +144,7 @@ ul .foot-item{
         -moz-transition: 1s;
         -ms-transition: 1s;
         -o-transition: 1s;
-}
+    }
     .mobile-nav ul{
         align-items: left;
         display: block;
@@ -177,17 +159,17 @@ ul .foot-item{
         -moz-transition: 3s;
         -ms-transition: 3s;
         -o-transition: 3s;
-}
-.mobile-nav li{
+    }
+    .mobile-nav li{
     list-style: none;
     margin-bottom: 40px;
     text-transform: uppercase;
-}
-.mobile-nav a{
+    }
+    .mobile-nav a{
     text-decoration: none;
     color: #fff;
-}
-.mobile-nav .toggle img{
+    }
+    .mobile-nav .toggle img{
     content: url(../src/images/icon-close.svg);
     position: absolute;
     top: 30px;
@@ -195,7 +177,7 @@ ul .foot-item{
     align-items: center;
     float: right;
     margin-right: 20px;
-}
+    }
 
     .btn{
         display: none;
@@ -219,13 +201,14 @@ ul .foot-item{
     }
 
     .creations{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 15px;
-    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
     .one{
-        background: url(../src/images/mobile/image-deep-earth.jpg);
+        background: url(../src/images/mobile/image-deep-earth.jpg) no-repeat;
     }
     .two{
         background: url(../src/images/mobile/image-night-arcade.jpg) no-repeat;
@@ -323,7 +306,7 @@ ul .foot-item{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: 0;
+        /* margin-left: 0; */
         width: 100%;
     }
 
@@ -373,7 +356,28 @@ ul .foot-item{
 
 } 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
+    
+    .grid{
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+    label{
+        position: absolute;
+        font-size: 20px;
+        left: 40px;
+        top: 340px;
+        color: #fff
+    }
+
+    .creations{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 20px;
+    }
     .btn-down{
         display: none;
     }
